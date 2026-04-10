@@ -1,0 +1,12 @@
+fields:
+  author: 
+    type: text
+
+  year:
+    type: number
+
+  gallery:
+    type: files
+
+  text:
+    type: writer
