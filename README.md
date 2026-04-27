@@ -1,4 +1,6 @@
-## What's Kirby?
+## Perceptive Publishing — Kirby Intro Repository
 
--   **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
--   **[Try it](https://getkirby.com/try)** – Take a test ride with the online demo. Or download one of our kits to get started.
+This is the repository for our Kirby Intro during the Perceptive Publishing seminar (Summer 26).
+
+-   **[Kirby Reference](https://getkirby.com/docs/reference)** – Kirby CMS Documentation
+-   **[Kirby YouTube Tutorials](https://www.youtube.com/watch?v=EDVYjxWMecc&list=PLTep5U-3mg9EfgnQ08XDRs4vSOmhw2JWz)** – Kirby CMS YouTube Tutorials Playlist
