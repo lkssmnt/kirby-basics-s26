@@ -1,6 +1,10 @@
+<?php snippet("head") ?>
+
 <h1><?= $page->title() ?></h1>
 <p><?= $page->author() ?></p>
 
 <div class="text">
   <?= $page->text() ?>
-</div> 
+</div>
+
+<?php snippet("foot") ?>
