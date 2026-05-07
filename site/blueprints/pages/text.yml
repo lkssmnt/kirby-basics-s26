@@ -1,6 +1,17 @@
-fields:
-  author:
-    type: text
+sections:
+  mysubpages:
+    type: pages
+    template: text
 
-  text:
-    type: writer
+  content:
+    type: fields
+    fields:
+      author:
+        type: text
+
+      year:
+        label: Jahr
+        type: text
+
+      text:
+        type: writer
