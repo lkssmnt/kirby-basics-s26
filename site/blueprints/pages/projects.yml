@@ -1,0 +1,14 @@
+sections:
+  draftpages:
+    type: pages
+    template: project
+    status: draft
+
+  projectpages:
+    type: pages
+    template: project
+    status: published
+    layout: table
+    columns:
+      author: true
+      year: true
