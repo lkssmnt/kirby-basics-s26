@@ -1,6 +1,6 @@
 fields:
   author: 
-    type: text
+    type: pages
 
   year:
     type: number

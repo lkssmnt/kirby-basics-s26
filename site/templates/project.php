@@ -1,7 +1,18 @@
 <?php snippet("head") ?>
 
 <h1><?= $page->title() ?> (<?= $page->year() ?>)</h1>
-<p><?= $page->author() ?></p>
+
+<?php
+
+$authorPage = $page->author()->toPage();
+
+?>
+
+<?php if($authorPage): ?>
+  <a href="<?=$authorPage->url() ?>"><?=$authorPage->title() ?></a>
+<?php else: ?>
+  <div class="placeholder">Placeholder</div>
+<?php endif ?>
 
 <div class="images">
   <?php foreach ($page->gallery()->toFiles() as $image): ?>
