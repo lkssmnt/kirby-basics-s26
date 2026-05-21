@@ -4,7 +4,7 @@
 
 <h2>Projects</h2>
 <ul>
-  <?php foreach(page("projects")->children() as $projectpage ): ?>
+  <?php foreach(page("projects")->children()->listed() as $projectpage ): ?>
     <li>
       <a href="<?= $projectpage->url() ?>"><?= $projectpage->title() ?></a>
     </li>
@@ -13,9 +13,18 @@
 
 <h2>Texts</h2>
 <ul>
-  <?php foreach(page("texts")->children() as $textpage ): ?>
+  <?php foreach(page("texts")->children()->listed() as $textpage ): ?>
     <li>
       <a href="<?= $textpage->url() ?>"><?= $textpage->title() ?></a>
+    </li>
+  <?php endforeach ?>
+</ul>
+
+<h2>Artists</h2>
+<ul>
+  <?php foreach(page("artists")->children()->listed()->sortBy("birthdate", "desc") as $artistpage): ?>
+    <li>
+      <a href="<?= $artistpage->url() ?>"><?= $artistpage->title() ?></a>
     </li>
   <?php endforeach ?>
 </ul>
