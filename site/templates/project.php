@@ -19,7 +19,7 @@ $authorPage = $page->author()->toPage();
     <img src="<?= $image->url() ?>">
   <?php endforeach ?>
 </div>
-fb
+
 <div class="text">
   <?= $page->text() ?>
 </div>
