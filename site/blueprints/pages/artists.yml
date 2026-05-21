@@ -1,0 +1,4 @@
+sections:
+  artistpages:
+    type: pages
+    template: artist

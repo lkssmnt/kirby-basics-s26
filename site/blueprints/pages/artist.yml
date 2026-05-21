@@ -1,0 +1,9 @@
+fields:
+  email:
+    type: email
+
+  bio:
+    type: writer
+
+  birthdate:
+    type: date
