@@ -11,7 +11,7 @@ $authorPage = $page->author()->toPage();
 <?php if($authorPage): ?>
   <a href="<?=$authorPage->url() ?>"><?=$authorPage->title() ?></a>
 <?php else: ?>
-  <div class="placeholder">Placeholder</div>
+  <p>Unknown Artist</p>
 <?php endif ?>
 
 <div class="images">
@@ -19,7 +19,7 @@ $authorPage = $page->author()->toPage();
     <img src="<?= $image->url() ?>">
   <?php endforeach ?>
 </div>
-
+fb
 <div class="text">
   <?= $page->text() ?>
 </div>
