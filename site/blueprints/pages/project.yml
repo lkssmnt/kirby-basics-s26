@@ -1,12 +1,15 @@
 fields:
   author: 
     type: pages
+    translate: false
 
   year:
     type: number
+    translate: false
 
   gallery:
     type: files
+    translate: false
 
   text:
     type: writer

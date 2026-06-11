@@ -1,5 +1,19 @@
 title: Site
 
 sections:
+
+  settings:
+    type: fields
+    fields:
+      introtext:
+        type: writer
+
+      nav:
+        type: pages
+
+
+
   pages:
     type: pages
+
+  

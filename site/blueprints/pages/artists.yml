@@ -2,3 +2,9 @@ sections:
   artistpages:
     type: pages
     template: artist
+
+  settings:
+    type: fields
+    fields:
+      navlabel:
+        type: text
